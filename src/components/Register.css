@@ -1,0 +1,50 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: c5b8b8; /* Color de fondo */
+  }
+  
+  h2 {
+    color: #4CAF50; /* Color del encabezado */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  form {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espacio superior e inferior */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Color al pasar el ratón */
+  }
+  
+  .error {
+    color: red; /* Color del texto de error */
+    margin: 10px 0; /* Espacio superior e inferior */
+  }
+  

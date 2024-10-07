@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: #080808; /* Color de fondo */
+  min-height: 100vh; /* Altura mínima para ocupar toda la ventana */
+  display: flex; /* Usar flexbox */
+  flex-direction: column; /* Colocar elementos en columna */
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  font-family: 'Arial', sans-serif; /* Fuente */
+}
+
+h1 {
+  color: #4CAF50; /* Color del encabezado */
+  font-size: 2.5rem; /* Tamaño de fuente */
+}
+
+p {
+  color: #333; /* Color del párrafo */
+  font-size: 1.2rem; /* Tamaño de fuente */
+}
+
+button {
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño de fuente */
+  color: white; /* Color del texto */
+  background-color: #007BFF; /* Color de fondo del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+body {
+  margin: 0; /* Elimina el margen por defecto */
+  padding: 0; /* Elimina el padding por defecto */
+  position: relative; /* Permite que el header se posicione sobre otros elementos */
+}
